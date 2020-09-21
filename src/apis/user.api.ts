@@ -9,10 +9,10 @@ export const loginApi = ({
           data: {
             access_token: '82jdu82193yh90sad83hxfgsd'
           },
-          message: 'Login thành công'
+          message: 'Đăng nhập thành công'
         })
       } else {
-        reject(new Error('Login thất bại'))
+        reject(new Error('Đăng nhập thất bại'))
       }
     }, 100)
   })

@@ -17,7 +17,7 @@ function SideNav(props: Props) {
     <Nav className={closeSideNav ? 'close' : ''}>
       <h1>
         <Logo
-          href="https://xdevclass.com/"
+          href="Toan Nguyen"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white"
@@ -44,12 +44,12 @@ function SideNav(props: Props) {
           Copyright ©{new Date().getFullYear()} All rights reserved | This
           template is made with by
           <a
-            href="https://xdevclass.com/"
+            href="https://www.facebook.com/profile.php?id=100008444040671"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-1 text-white"
           >
-            XdevClass
+            Toan Nguyen
           </a>
         </p>
       </Footer>

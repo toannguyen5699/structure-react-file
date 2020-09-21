@@ -73,7 +73,7 @@ const Login = (props: Props) => {
 }
 
 const mapStateToProps = state => ({
-  loading: state.loading
+  loading: state.login.loading
 })
 
 const mapDispatchToProps = {
